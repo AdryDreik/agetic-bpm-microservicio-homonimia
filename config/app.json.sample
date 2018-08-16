@@ -1,0 +1,5 @@
+{
+  "mongoUrl": "mongodb://localhost/microservicio-segip",
+  "mongoUrlDev": "mongodb://localhost/microservicio-segip-dev",
+  "mongoUrlTest": "mongodb://localhost/microservicio-segip-test"
+}
