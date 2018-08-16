@@ -1,5 +1,5 @@
 const express = require('express');
 const app = express.Router();
-const { Docs }= require('../controllers');
-app.get('/', Docs.docs);
+const { Clasificador } = require('../controllers');
+app.get('/', Clasificador.listar);
 module.exports = app;
