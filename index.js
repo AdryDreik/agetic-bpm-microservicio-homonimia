@@ -2,7 +2,7 @@ const Debug = require('debug');
 const mongoose = require('mongoose');
 const app = require('./app');
 const config = require('./config/app');
-const PORT = process.env.PORT || 1987;
+const PORT = process.env.PORT || 6000;
 const debug = new Debug('microservicio-segip');
 debug(config);
 async function start() {

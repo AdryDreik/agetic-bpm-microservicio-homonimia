@@ -1,14 +1,14 @@
 {
-  "name": "agetic-bpm-microservicio-interoperabilidad",
+  "name": "agetic-bpm-microservicio-homonimia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Microservicio creado para consumir los servicios para la homonimia",
   "main": "index.js",
   "scripts": {
     "test": "ava tests/integracion/* --verbose",
-    "start": "PORT=1987 NODE_ENV=production DEBUG=microservicio-interoperabilidad* node index.js",
-    "start:dev": "NODE_ENV=development DEBUG=microservicio-interoperabilidad* nodemon index.js",
-    "seeders": "NODE_ENV=production DEBUG=microservicio-interoperabilidad* node seeders/",
-    "seeders:dev": "NODE_ENV=development DEBUG=microservicio-interoperabilidad* node seeders/"
+    "start": "PORT=6000 NODE_ENV=production DEBUG=microservicio-homonimia* node index.js",
+    "start:dev": "NODE_ENV=development DEBUG=microservicio-homonimia* nodemon index.js",
+    "seeders": "NODE_ENV=production DEBUG=microservicio-homonimia* node seeders/",
+    "seeders:dev": "NODE_ENV=development DEBUG=microservicio-homonimia* node seeders/"
   },
   "author": "",
   "license": "ISC",
