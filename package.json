@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "ava tests/integracion/* --verbose",
-    "start": "PORT=6000 NODE_ENV=production DEBUG=microservicio-homonimia* node index.js",
-    "start:dev": "NODE_ENV=development DEBUG=microservicio-homonimia* nodemon index.js",
+    "start": "PORT=8100 NODE_ENV=production DEBUG=microservicio-homonimia* node index.js",
+    "start:dev": "PORT=8100 NODE_ENV=development DEBUG=microservicio-homonimia* nodemon index.js",
     "seeders": "NODE_ENV=production DEBUG=microservicio-homonimia* node seeders/",
     "seeders:dev": "NODE_ENV=development DEBUG=microservicio-homonimia* node seeders/"
   },

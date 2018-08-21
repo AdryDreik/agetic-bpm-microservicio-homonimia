@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*') // En produccion colocar el dominio de acceso
-  res.setHeader('Access-Control-Allow-Headers', ' Origin, X-Requested-With, Cache-Control, Content-Type, Accept, Authorization')
+  res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Cache-Control, Content-Type, Accept, Authorization')
   res.setHeader('Access-Control-Allow-Methods', 'POST, GET, PATCH, DELETE, PUT, OPTIONS')
   next()
 })
